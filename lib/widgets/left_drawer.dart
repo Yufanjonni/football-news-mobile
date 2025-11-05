@@ -52,9 +52,6 @@ class LeftDrawer extends StatelessWidget {
             title: const Text('Add News'),
             // Bagian redirection ke NewsFormPage
             onTap: () {
-              /*
-              setelah halaman NewsFormPage sudah dibuat.
-              */
               Navigator.push(context, MaterialPageRoute(builder: (context) => const NewsFormPage()));
             },
           ),
